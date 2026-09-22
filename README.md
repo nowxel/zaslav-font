@@ -15,7 +15,7 @@ built into real font files with [fontTools](https://github.com/fonttools/fonttoo
 А Б В Г Ґ Д Е Є Ж З И І Ї Й К Л М Н О П Р С Т Ў
 ```
 
-Still missing: `Ё У Ф Х Ц Ч Ш Ы Ь Э Ю Я` and all lowercase letters.
+Still missing: `У Ф Х Ц Ч Ш Ь Ю Я` and all lowercase letters.
 More glyphs get added as source material comes in.
 
 ## Files
