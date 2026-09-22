@@ -16,9 +16,9 @@ built into real font files with [fontTools](https://github.com/fonttools/fonttoo
 ```
 
 `Ш` and `Щ` weren't in either source image — they're constructed from the
-same stem/serif shapes as `І`, with `Щ`'s descender tail hand-drawn to match
-the font's stroke weight, then run through the same trace pipeline as
-everything else for a consistent texture.
+same stem/serif shapes as `І`. `Щ`'s descender tail was redrawn to match a
+reference the user provided, then everything is run through the same trace
+pipeline as the rest of the glyphs for a consistent texture.
 
 Still missing: `У Ф Х Ц Ч Ь Ю Я` and all lowercase letters.
 More glyphs get added as source material comes in.
