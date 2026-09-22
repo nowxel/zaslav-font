@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="be">
+<head>
+<meta charset="utf-8">
+<title>Zaslav Display — превью шрыфту</title>
+<style>
+  @font-face {
+    font-family: "Zaslav Display";
+    src: url("ZaslavDisplay-Regular.woff2") format("woff2"),
+         url("ZaslavDisplay-Regular.otf") format("opentype");
+    font-weight: 400;
+    font-style: normal;
+  }
+  body {
+    background: #111;
+    color: #fff;
+    font-family: system-ui, sans-serif;
+    padding: 40px;
+  }
+  h1 {
+    font-family: "Zaslav Display", serif;
+    font-size: 96px;
+    letter-spacing: 2px;
+    margin: 0 0 10px;
+  }
+  .alphabet {
+    font-family: "Zaslav Display", serif;
+    font-size: 56px;
+    letter-spacing: 4px;
+    line-height: 1.6;
+    color: #eee;
+  }
+  .note {
+    color: #888;
+    font-size: 14px;
+    margin-top: 30px;
+    max-width: 640px;
+    line-height: 1.5;
+  }
+  code { color: #9cf; }
+</style>
+</head>
+<body>
+  <h1>ЗАСЛАЎ</h1>
+  <div class="alphabet">АБВГҐДЕЄЖЗИІЇЙКЛМНОПРСТ</div>
+
+  <div class="note">
+    Draft v1.2 — 24 uppercase glyphs (traced from the logo + a historic specimen sheet).
+    Note: Ґ's top hook was clipped at the edge of the source scan, so its tip is flat
+    rather than pointed — worth a cleaner source or manual touch-up later.
+    Still missing: Ё У Ф Х Ц Ч Ш Ы Ь Э Ю Я and lowercase.
+    Use in CSS with: <code>font-family: "Zaslav Display", serif;</code>
+  </div>
+</body>
+</html>
