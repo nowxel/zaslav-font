@@ -9,18 +9,18 @@ built into real font files with [fontTools](https://github.com/fonttools/fonttoo
 
 ## Status
 
-**v1.3 — 26 uppercase glyphs:**
+**v1.4 — 27 uppercase glyphs:**
 
 ```
-А Б В Г Ґ Д Е Є Ж З И І Ї Й К Л М Н О П Р С Т Ў Ш Щ
+А Б В Г Ґ Д Е Є Ж З И І Ї Й К Л М Н О П Р С Т Ў Ч Ш Щ
 ```
 
-`Ш` and `Щ` weren't in either source image — they're constructed from the
-same stem/serif shapes as `І`. `Щ`'s descender tail was redrawn to match a
-reference the user provided, then everything is run through the same trace
-pipeline as the rest of the glyphs for a consistent texture.
+`Ш`, `Щ` and `Ч` weren't in either source image — they're constructed from
+the same stem/serif shapes as `І`. `Щ`'s descender tail and `Ч`'s bowl were
+drawn to match a reference the user provided, then everything is run through
+the same trace pipeline as the rest of the glyphs for a consistent texture.
 
-Still missing: `У Ф Х Ц Ч Ь Ю Я` and all lowercase letters.
+Still missing: `У Ф Х Ц Ь Ю Я` and all lowercase letters.
 More glyphs get added as source material comes in.
 
 ## Files
