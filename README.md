@@ -23,6 +23,9 @@ the same trace pipeline as the rest of the glyphs for a consistent texture.
 The font also has a `space` glyph (280 units, mapped to U+0020 and U+00A0),
 so spaces in running text come from the font instead of a fallback.
 
+Kerning: 295 pairs in a GPOS `kern` feature, source in `kern.fea`
+(РА, ТА, ГА, ЗА, АТ, АЧ, ДЕ, ТО…). Browsers apply it automatically.
+
 Still missing: `У Ф Х Ц Ь Ю Я` and all lowercase letters.
 More glyphs get added as source material comes in.
 
