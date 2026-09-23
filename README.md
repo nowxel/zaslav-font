@@ -20,6 +20,9 @@ the same stem/serif shapes as `І`. `Щ`'s descender tail and `Ч`'s bowl were
 drawn to match a reference the user provided, then everything is run through
 the same trace pipeline as the rest of the glyphs for a consistent texture.
 
+The font also has a `space` glyph (280 units, mapped to U+0020 and U+00A0),
+so spaces in running text come from the font instead of a fallback.
+
 Still missing: `У Ф Х Ц Ь Ю Я` and all lowercase letters.
 More glyphs get added as source material comes in.
 
