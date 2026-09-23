@@ -26,6 +26,12 @@ so spaces in running text come from the font instead of a fallback.
 Kerning: 295 pairs in a GPOS `kern` feature, source in `kern.fea`
 (РА, ТА, ГА, ЗА, АТ, АЧ, ДЕ, ТО…). Browsers apply it automatically.
 
+`Е` was redrawn from a small photo reference (about 20 px tall, too small to
+trace directly): heavy straight stem without left serifs, hairline arms, a
+teardrop beak at the top, a tall thin spur on the middle arm and a wedge at
+the bottom. It was rebuilt at high resolution and run through potrace with a
+light edge roughening so its texture matches the traced glyphs.
+
 Still missing: `У Ф Х Ц Ь Ю Я` and all lowercase letters.
 More glyphs get added as source material comes in.
 
