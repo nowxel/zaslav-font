@@ -70,7 +70,7 @@ feature kern {
     pos uni0490 uni0413 -50;  # ҐГ
     pos uni0490 uni0490 -60;  # ҐҐ
     pos uni0490 uni0414 -75;  # ҐД
-    pos uni0490 uni0415 -20;  # ҐЕ
+    pos uni0490 uni0415 -25;  # ҐЕ
     pos uni0490 uni0404 -55;  # ҐЄ
     pos uni0490 uni0416 -55;  # ҐЖ
     pos uni0490 uni0417 -55;  # ҐЗ
@@ -106,11 +106,12 @@ feature kern {
     pos uni0414 uni0427 -60;  # ДЧ
     pos uni0414 uni0428 -25;  # ДШ
     pos uni0414 uni0429 -25;  # ДЩ
-    pos uni0415 uni0416 -40;  # ЕЖ
-    pos uni0415 uni0417 -40;  # ЕЗ
-    pos uni0415 uni0422 -20;  # ЕТ
-    pos uni0415 uni040E -25;  # ЕЎ
-    pos uni0415 uni0427 -25;  # ЕЧ
+    pos uni0415 uni0416 -45;  # ЕЖ
+    pos uni0415 uni0417 -45;  # ЕЗ
+    pos uni0415 uni041B -20;  # ЕЛ
+    pos uni0415 uni0422 -55;  # ЕТ
+    pos uni0415 uni040E -35;  # ЕЎ
+    pos uni0415 uni0427 -50;  # ЕЧ
     pos uni0404 uni0410 -45;  # ЄА
     pos uni0404 uni0416 -35;  # ЄЖ
     pos uni0404 uni0417 -50;  # ЄЗ
@@ -215,7 +216,7 @@ feature kern {
     pos uni0420 uni0413 -40;  # РГ
     pos uni0420 uni0490 -45;  # РҐ
     pos uni0420 uni0414 -75;  # РД
-    pos uni0420 uni0415 -25;  # РЕ
+    pos uni0420 uni0415 -20;  # РЕ
     pos uni0420 uni0404 -45;  # РЄ
     pos uni0420 uni0416 -65;  # РЖ
     pos uni0420 uni0417 -40;  # РЗ
@@ -250,7 +251,7 @@ feature kern {
     pos uni0422 uni0413 -45;  # ТГ
     pos uni0422 uni0490 -65;  # ТҐ
     pos uni0422 uni0414 -75;  # ТД
-    pos uni0422 uni0415 -25;  # ТЕ
+    pos uni0422 uni0415 -20;  # ТЕ
     pos uni0422 uni0404 -65;  # ТЄ
     pos uni0422 uni0416 -45;  # ТЖ
     pos uni0422 uni0417 -60;  # ТЗ
