@@ -9,10 +9,10 @@ built into real font files with [fontTools](https://github.com/fonttools/fonttoo
 
 ## Status
 
-**v1.5 — 28 uppercase glyphs:**
+**v1.6 — 29 uppercase glyphs:**
 
 ```
-А Б В Г Ґ Д Е Є Ж З И І Ї Й К Л М Н О П Р С Т Ў Ч Ш Щ Ю
+А Б В Г Ґ Д Е Є Ж З И І Ї Й К Л М Н О П Р С Т Ў Ч Ш Щ Ь Ю
 ```
 
 `Ш`, `Щ` and `Ч` weren't in either source image — they're constructed from
@@ -36,7 +36,10 @@ light edge roughening so its texture matches the traced glyphs.
 bracketed crossbar at mid-height; only the bar was roughened, the stem and
 bowl keep their traced outlines.
 
-Still missing: `У Ф Х Ц Ь Я` and all lowercase letters.
+`Ь` is built from the top of `І` (stem with both serifs) and the lower bowl
+of `В`, joined with a curved bracket where the bowl meets the stem.
+
+Still missing: `У Ф Х Ц Я` and all lowercase letters.
 More glyphs get added as source material comes in.
 
 ## Files
