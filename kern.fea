@@ -51,7 +51,7 @@ feature kern {
     pos uni0413 uni0418 -35;  # ГИ
     pos uni0413 uni0406 -20;  # ГІ
     pos uni0413 uni0407 -60;  # ГЇ
-    pos uni0413 uni0419 -25;  # ГЙ
+    pos uni0413 uni0419 -35;  # ГЙ
     pos uni0413 uni041A -35;  # ГК
     pos uni0413 uni041B -70;  # ГЛ
     pos uni0413 uni041C -65;  # ГМ
@@ -79,7 +79,7 @@ feature kern {
     pos uni0490 uni0418 -40;  # ҐИ
     pos uni0490 uni0406 -25;  # ҐІ
     pos uni0490 uni0407 -60;  # ҐЇ
-    pos uni0490 uni0419 -30;  # ҐЙ
+    pos uni0490 uni0419 -40;  # ҐЙ
     pos uni0490 uni041A -40;  # ҐК
     pos uni0490 uni041B -75;  # ҐЛ
     pos uni0490 uni041C -65;  # ҐМ
@@ -99,7 +99,6 @@ feature kern {
     pos uni0414 uni0404 -35;  # ДЄ
     pos uni0414 uni0406 -30;  # ДІ
     pos uni0414 uni0407 -60;  # ДЇ
-    pos uni0414 uni0419 -30;  # ДЙ
     pos uni0414 uni041A -25;  # ДК
     pos uni0414 uni041D -25;  # ДН
     pos uni0414 uni041E -35;  # ДО
@@ -174,11 +173,10 @@ feature kern {
     pos uni0407 uni0422 -60;  # ЇТ
     pos uni0407 uni040E -40;  # ЇЎ
     pos uni0407 uni0427 -50;  # ЇЧ
-    pos uni0419 uni0414 -35;  # ЙД
     pos uni0419 uni0416 -25;  # ЙЖ
     pos uni0419 uni0417 -35;  # ЙЗ
-    pos uni0419 uni0422 -40;  # ЙТ
-    pos uni0419 uni040E -25;  # ЙЎ
+    pos uni0419 uni0422 -55;  # ЙТ
+    pos uni0419 uni040E -20;  # ЙЎ
     pos uni0419 uni0427 -40;  # ЙЧ
     pos uni041A uni0416 -20;  # КЖ
     pos uni041A uni0417 -30;  # КЗ
@@ -228,7 +226,7 @@ feature kern {
     pos uni0420 uni0418 -35;  # РИ
     pos uni0420 uni0406 -40;  # РІ
     pos uni0420 uni0407 -55;  # РЇ
-    pos uni0420 uni0419 -40;  # РЙ
+    pos uni0420 uni0419 -35;  # РЙ
     pos uni0420 uni041A -40;  # РК
     pos uni0420 uni041B -70;  # РЛ
     pos uni0420 uni041C -60;  # РМ
@@ -264,7 +262,7 @@ feature kern {
     pos uni0422 uni0418 -35;  # ТИ
     pos uni0422 uni0406 -20;  # ТІ
     pos uni0422 uni0407 -60;  # ТЇ
-    pos uni0422 uni0419 -25;  # ТЙ
+    pos uni0422 uni0419 -35;  # ТЙ
     pos uni0422 uni041A -35;  # ТК
     pos uni0422 uni041B -75;  # ТЛ
     pos uni0422 uni041C -65;  # ТМ
