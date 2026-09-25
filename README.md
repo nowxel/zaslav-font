@@ -9,7 +9,7 @@ built into real font files with [fontTools](https://github.com/fonttools/fonttoo
 
 ## Status
 
-**v1.8 — 30 uppercase letters + Ꙗ:**
+**Version 10.000 (X) — 30 uppercase letters + Ꙗ:**
 
 ```
 А Б В Г Ґ Д Е Є Ж З И І Ї Й К Л М Н О П Р С Т Ў Ч Ш Щ Ь Ю Я Ꙗ
@@ -53,6 +53,14 @@ leg of `Л` and `А`.
 
 Still missing: `У Ф Х Ц` and all lowercase letters.
 More glyphs get added as source material comes in.
+
+## Versioning
+
+The version is stored the standard OpenType way and kept the same in all
+three files: `head.fontRevision` = 10.000, name ID 5 = `Version 10.000`,
+name ID 3 (unique ID) = `10.000;NOWXEL;ZaslavDisplay-Regular`, and the CFF
+`version` in the OTF. Git tag: `v10.000`. The next release should bump all
+of these together (e.g. 10.001 for fixes, 11.000 for new letters).
 
 ## Files
 
