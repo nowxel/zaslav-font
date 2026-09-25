@@ -46,11 +46,10 @@ with a small gap left between the feet at the baseline.
 `Я` follows the handwritten я of Bohdan-Ihor Antonych (his «ся» and «Ясна»)
 on the left and `А` on the right. Left: a loop that starts with a hanging
 drop, a small eye where the pen crosses its own stroke, and a leg ending in
-a heavy rounded drop at the baseline. Right: the right half of `А` exactly as
-it is in `А` (flagged head, the shoulder where the diagonal leaves the stem,
-foot) and the `А` crossbar, extended along
-its own slope until it meets the leg. Built from the mirrored `Р` bowl, the
-left leg of `Л` and `А`.
+a heavy rounded drop at the baseline. Right: `А` without its crossbar —
+flagged head, stem, foot and the diagonal, which runs down from the head
+and joins the leg at the bottom. Built from the mirrored `Р` bowl, the left
+leg of `Л` and `А`.
 
 Still missing: `У Ф Х Ц` and all lowercase letters.
 More glyphs get added as source material comes in.
