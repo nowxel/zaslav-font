@@ -43,16 +43,13 @@ of `В`, joined with a curved bracket where the bowl meets the stem.
 the `І` stem and `А` joined by a crossbar that runs into the diagonal of `А`,
 with a small gap left between the feet at the baseline.
 
-`Я` follows the handwritten я of Bohdan-Ihor Antonych (from his «ся»): the
-loop starts at the top with a hanging drop and does not touch the stem; it
-flows into a leg down to the bottom left, and from the foot of the leg a
-thin stroke rises into the stem, so the two halves join at the bottom, not
-in the middle. The stem is the right stem of `А` top and bottom: the same
-flagged head and the same foot; the left half was moved 70 units to the
-left to make room for the head. Where the loop turns into the leg the stroke crosses
-itself and leaves a small eye, and the leg ends in a heavy rounded drop at
-the baseline, as in his «Ясна». Built from the mirrored `Р` bowl, the left
-leg of `Л`, a new stem top, drop, rising hairline, eye and drop foot; the stem foot is taken from `А`.
+`Я` follows the handwritten я of Bohdan-Ihor Antonych (his «ся» and «Ясна»)
+on the left and `А` on the right. Left: a loop that starts with a hanging
+drop, a small eye where the pen crosses its own stroke, and a leg ending in
+a heavy rounded drop at the baseline. Right: the whole right stem of `А`
+(flagged head with its full beak, foot) and the `А` crossbar, extended along
+its own slope until it meets the leg. Built from the mirrored `Р` bowl, the
+left leg of `Л` and `А`.
 
 Still missing: `У Ф Х Ц` and all lowercase letters.
 More glyphs get added as source material comes in.
