@@ -48,8 +48,10 @@ loop starts at the top with a hanging drop and does not touch the stem; it
 flows into a leg down to the bottom left, and from the foot of the leg a
 thin stroke rises into the stem, so the two halves join at the bottom, not
 in the middle. The stem has a pointed top and turns up into a short hook at
-the bottom right. Built from the mirrored `Р` bowl, the left leg of `Л`, a
-new stem top, drop, rising hairline and hook.
+the bottom right. Where the loop turns into the leg the stroke crosses
+itself and leaves a small eye, and the leg ends in a heavy rounded drop at
+the baseline, as in his «Ясна». Built from the mirrored `Р` bowl, the left
+leg of `Л`, a new stem top, drop, rising hairline, hook, eye and foot.
 
 Still missing: `У Ф Х Ц` and all lowercase letters.
 More glyphs get added as source material comes in.
