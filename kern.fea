@@ -34,6 +34,7 @@ feature kern {
     pos uni0411 uni0429 -20;  # БЩ
     pos uni0411 uni042C -20;  # БЬ
     pos uni0411 uni042E -25;  # БЮ
+    pos uni0411 uni042F -20;  # БЯ
     pos uni0411 uniA656 -25;  # БꙖ
     pos uni0412 uni0416 -20;  # ВЖ
     pos uni0412 uni0417 -25;  # ВЗ
@@ -69,6 +70,7 @@ feature kern {
     pos uni0413 uni0429 -25;  # ГЩ
     pos uni0413 uni042C -20;  # ГЬ
     pos uni0413 uni042E -20;  # ГЮ
+    pos uni0413 uni042F -60;  # ГЯ
     pos uni0413 uniA656 -20;  # ГꙖ
     pos uni0490 uni0410 -75;  # ҐА
     pos uni0490 uni0411 -55;  # ҐБ
@@ -99,6 +101,7 @@ feature kern {
     pos uni0490 uni0429 -25;  # ҐЩ
     pos uni0490 uni042C -25;  # ҐЬ
     pos uni0490 uni042E -25;  # ҐЮ
+    pos uni0490 uni042F -55;  # ҐЯ
     pos uni0490 uniA656 -25;  # ҐꙖ
     pos uni0414 uni0411 -35;  # ДБ
     pos uni0414 uni0412 -30;  # ДВ
@@ -123,6 +126,7 @@ feature kern {
     pos uni0415 uni0422 -55;  # ЕТ
     pos uni0415 uni040E -35;  # ЕЎ
     pos uni0415 uni0427 -50;  # ЕЧ
+    pos uni0415 uni042F -35;  # ЕЯ
     pos uni0404 uni0410 -45;  # ЄА
     pos uni0404 uni0416 -35;  # ЄЖ
     pos uni0404 uni0417 -50;  # ЄЗ
@@ -130,6 +134,7 @@ feature kern {
     pos uni0404 uni0422 -60;  # ЄТ
     pos uni0404 uni040E -35;  # ЄЎ
     pos uni0404 uni0427 -50;  # ЄЧ
+    pos uni0404 uni042F -25;  # ЄЯ
     pos uni0416 uni0411 -20;  # ЖБ
     pos uni0416 uni0412 -25;  # ЖВ
     pos uni0416 uni0413 -20;  # ЖГ
@@ -155,6 +160,7 @@ feature kern {
     pos uni0416 uni0429 -20;  # ЖЩ
     pos uni0416 uni042C -25;  # ЖЬ
     pos uni0416 uni042E -25;  # ЖЮ
+    pos uni0416 uni042F -20;  # ЖЯ
     pos uni0416 uniA656 -25;  # ЖꙖ
     pos uni0417 uni0410 -45;  # ЗА
     pos uni0417 uni0416 -35;  # ЗЖ
@@ -193,6 +199,7 @@ feature kern {
     pos uni041A uni0422 -35;  # КТ
     pos uni041A uni040E -25;  # КЎ
     pos uni041A uni0427 -35;  # КЧ
+    pos uni041A uni042F -20;  # КЯ
     pos uni041B uni0416 -25;  # ЛЖ
     pos uni041B uni0417 -30;  # ЛЗ
     pos uni041B uni0422 -45;  # ЛТ
@@ -203,6 +210,7 @@ feature kern {
     pos uni041C uni0422 -65;  # МТ
     pos uni041C uni040E -30;  # МЎ
     pos uni041C uni0427 -55;  # МЧ
+    pos uni041C uni042F -20;  # МЯ
     pos uni041D uni0414 -20;  # НД
     pos uni041D uni0416 -20;  # НЖ
     pos uni041D uni0417 -25;  # НЗ
@@ -252,6 +260,7 @@ feature kern {
     pos uni0420 uni0429 -40;  # РЩ
     pos uni0420 uni042C -40;  # РЬ
     pos uni0420 uni042E -40;  # РЮ
+    pos uni0420 uni042F -45;  # РЯ
     pos uni0420 uniA656 -40;  # РꙖ
     pos uni0421 uni0410 -45;  # СА
     pos uni0421 uni0414 -35;  # СД
@@ -261,6 +270,7 @@ feature kern {
     pos uni0421 uni0422 -60;  # СТ
     pos uni0421 uni040E -30;  # СЎ
     pos uni0421 uni0427 -50;  # СЧ
+    pos uni0421 uni042F -25;  # СЯ
     pos uni0422 uni0410 -70;  # ТА
     pos uni0422 uni0411 -45;  # ТБ
     pos uni0422 uni0412 -55;  # ТВ
@@ -290,6 +300,7 @@ feature kern {
     pos uni0422 uni0429 -25;  # ТЩ
     pos uni0422 uni042C -20;  # ТЬ
     pos uni0422 uni042E -20;  # ТЮ
+    pos uni0422 uni042F -60;  # ТЯ
     pos uni0422 uniA656 -20;  # ТꙖ
     pos uni040E uni0410 -40;  # ЎА
     pos uni040E uni0416 -30;  # ЎЖ
@@ -297,6 +308,7 @@ feature kern {
     pos uni040E uni0422 -35;  # ЎТ
     pos uni040E uni040E -25;  # ЎЎ
     pos uni040E uni0427 -35;  # ЎЧ
+    pos uni040E uni042F -20;  # ЎЯ
     pos uni0427 uni0414 -35;  # ЧД
     pos uni0427 uni0416 -25;  # ЧЖ
     pos uni0427 uni0417 -45;  # ЧЗ
@@ -320,6 +332,7 @@ feature kern {
     pos uni042C uni0422 -75;  # ЬТ
     pos uni042C uni040E -50;  # ЬЎ
     pos uni042C uni0427 -75;  # ЬЧ
+    pos uni042C uni042F -20;  # ЬЯ
     pos uni042E uni0410 -45;  # ЮА
     pos uni042E uni0414 -50;  # ЮД
     pos uni042E uni0416 -40;  # ЮЖ
@@ -328,6 +341,32 @@ feature kern {
     pos uni042E uni0422 -65;  # ЮТ
     pos uni042E uni040E -35;  # ЮЎ
     pos uni042E uni0427 -45;  # ЮЧ
+    pos uni042E uni042F -20;  # ЮЯ
+    pos uni042F uni0411 -30;  # ЯБ
+    pos uni042F uni0412 -30;  # ЯВ
+    pos uni042F uni0490 -20;  # ЯҐ
+    pos uni042F uni0404 -25;  # ЯЄ
+    pos uni042F uni0416 -20;  # ЯЖ
+    pos uni042F uni0417 -35;  # ЯЗ
+    pos uni042F uni0418 -20;  # ЯИ
+    pos uni042F uni0406 -25;  # ЯІ
+    pos uni042F uni0407 -55;  # ЯЇ
+    pos uni042F uni0419 -20;  # ЯЙ
+    pos uni042F uni041A -25;  # ЯК
+    pos uni042F uni041C -25;  # ЯМ
+    pos uni042F uni041D -25;  # ЯН
+    pos uni042F uni041E -30;  # ЯО
+    pos uni042F uni0420 -20;  # ЯР
+    pos uni042F uni0421 -30;  # ЯС
+    pos uni042F uni0422 -70;  # ЯТ
+    pos uni042F uni040E -45;  # ЯЎ
+    pos uni042F uni0427 -60;  # ЯЧ
+    pos uni042F uni0428 -25;  # ЯШ
+    pos uni042F uni0429 -25;  # ЯЩ
+    pos uni042F uni042C -25;  # ЯЬ
+    pos uni042F uni042E -25;  # ЯЮ
+    pos uni042F uni042F -25;  # ЯЯ
+    pos uni042F uniA656 -25;  # ЯꙖ
     pos uniA656 uni0414 -20;  # ꙖД
     pos uniA656 uni0416 -20;  # ꙖЖ
     pos uniA656 uni0417 -35;  # ꙖЗ

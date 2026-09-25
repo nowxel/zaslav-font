@@ -9,10 +9,10 @@ built into real font files with [fontTools](https://github.com/fonttools/fonttoo
 
 ## Status
 
-**v1.7 — 29 uppercase letters + Ꙗ:**
+**v1.8 — 30 uppercase letters + Ꙗ:**
 
 ```
-А Б В Г Ґ Д Е Є Ж З И І Ї Й К Л М Н О П Р С Т Ў Ч Ш Щ Ь Ю Ꙗ
+А Б В Г Ґ Д Е Є Ж З И І Ї Й К Л М Н О П Р С Т Ў Ч Ш Щ Ь Ю Я Ꙗ
 ```
 
 `Ш`, `Щ` and `Ч` weren't in either source image — they're constructed from
@@ -43,7 +43,12 @@ of `В`, joined with a curved bracket where the bowl meets the stem.
 the `І` stem and `А` joined by a crossbar that runs into the diagonal of `А`,
 with a small gap left between the feet at the baseline.
 
-Still missing: `У Ф Х Ц Я` and all lowercase letters.
+`Я` follows the handwritten я of Bohdan-Ihor Antonych (from his «ся»): a
+knotted bowl at the top left, a leg running down to the bottom left and a
+stem that turns up into a short hook at the bottom right. Built from the
+mirrored `Р` bowl and stem, the left leg of `Л` and a new hook.
+
+Still missing: `У Ф Х Ц` and all lowercase letters.
 More glyphs get added as source material comes in.
 
 ## Files
