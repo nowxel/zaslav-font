@@ -356,7 +356,6 @@ feature kern {
     pos uni042F uni0427 -50;  # ЯЧ
     pos uni042F uni0428 -20;  # ЯШ
     pos uni042F uni0429 -20;  # ЯЩ
-    pos uni042F uni042C -20;  # ЯЬ
     pos uni042F uni042F -25;  # ЯЯ
     pos uniA656 uni0414 -20;  # ꙖД
     pos uniA656 uni0416 -20;  # ꙖЖ
