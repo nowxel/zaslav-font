@@ -1,6 +1,8 @@
 # Zaslav Display
 
-Hand-drawn Belarusian Cyrillic display typeface, work in progress.
+Hand-drawn Cyrillic display typeface for Belarusian and Ukrainian, work in progress.
+
+Рукописний кириличний шрифт для заголовків (Заслаў, Zaslau): білоруська та українська абетки, у розробці.
 
 Traced from the "ЗАСЛАЎ" logo and a historic Cyrillic specimen sheet, then
 built into real font files with [fontTools](https://github.com/fonttools/fonttools).
@@ -9,22 +11,34 @@ built into real font files with [fontTools](https://github.com/fonttools/fonttoo
 
 ## Status
 
-**Version 10.000 (X) — 30 uppercase letters + Ꙗ:**
+**Version 11.000 — 31 uppercase letters + Ꙗ:**
 
 ```
-А Б В Г Ґ Д Е Є Ж З И І Ї Й К Л М Н О П Р С Т Ў Ч Ш Щ Ь Ю Я Ꙗ
+А Б В Г Ґ Д Е Є Ж З И І Ї Й К Л М Н О П Р С Т Ў Х Ч Ш Щ Ь Ю Я Ꙗ
 ```
 
-`Ш`, `Щ` and `Ч` weren't in either source image — they're constructed from
-the same stem/serif shapes as `І`. `Щ`'s descender tail and `Ч`'s bowl were
-drawn to match a reference the user provided, then everything is run through
-the same trace pipeline as the rest of the glyphs for a consistent texture.
+`Ш` and `Щ` weren't in either source image — they're constructed from the
+same stem/serif shapes as `І`, with `Щ`'s descender tail drawn to match a
+photo reference, then run through the same trace pipeline as the rest of the
+glyphs for a consistent texture.
+
+`Ґ` (v11) follows a light-painting reference: the lower `І` stem, cut on a
+slant, runs into a loop that sweeps left and up into the top bar, which ends
+in a hanging teardrop on the right.
+
+`Ч` (v11) is the ustav Y-form from a small printed specimen («КАЧІЕ ІХА»):
+two nearly symmetric arms with flat serifs meet at about 40 % of the height
+on the lower `І` stem.
+
+`Х` (v11) comes from the same specimen: a heavy diagonal from top left to
+bottom right, a hairline from top right to bottom left, flat serifs on all
+four ends. The build script is `tools/build_v11.py`.
 
 The font also has a `space` glyph (280 units, mapped to U+0020 and U+00A0),
 so spaces in running text come from the font instead of a fallback.
 
-Kerning: 295 pairs in a GPOS `kern` feature, source in `kern.fea`
-(РА, ТА, ГА, ЗА, АТ, АЧ, ДЕ, ТО…). Browsers apply it automatically.
+Kerning: 413 pairs in a GPOS `kern` feature, source in `kern.fea`
+(РА, ТА, ГА, ЗА, АТ, АЧ, ХА, ДЕ, ТО…). Browsers apply it automatically.
 
 `Е` was redrawn from a small photo reference (about 20 px tall, too small to
 trace directly): heavy straight stem without left serifs, hairline arms, a
@@ -51,16 +65,16 @@ flagged head, stem, foot and the diagonal, which runs down from the head
 and joins the leg at the bottom. Built from the mirrored `Р` bowl, the left
 leg of `Л` and `А`.
 
-Still missing: `У Ф Х Ц` and all lowercase letters.
+Still missing: `У Ф Ц` and all lowercase letters.
 More glyphs get added as source material comes in.
 
 ## Versioning
 
 The version is stored the standard OpenType way and kept the same in all
-three files: `head.fontRevision` = 10.000, name ID 5 = `Version 10.000`,
-name ID 3 (unique ID) = `10.000;NOWXEL;ZaslavDisplay-Regular`, and the CFF
-`version` in the OTF. Git tag: `v10.000`. The next release should bump all
-of these together (e.g. 10.001 for fixes, 11.000 for new letters).
+three files: `head.fontRevision` = 11.000, name ID 5 = `Version 11.000`,
+name ID 3 (unique ID) = `11.000;NOWXEL;ZaslavDisplay-Regular`, and the CFF
+`version` in the OTF. Git tag: `v11.000`. The next release should bump all
+of these together (e.g. 11.001 for fixes, 12.000 for new letters).
 
 ## Files
 
