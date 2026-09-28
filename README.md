@@ -7,6 +7,8 @@ Hand-drawn Cyrillic display typeface for Belarusian and Ukrainian, work in progr
 Traced from the "ЗАСЛАЎ" logo and a historic Cyrillic specimen sheet, then
 built into real font files with [fontTools](https://github.com/fonttools/fonttools).
 
+![Zaslav Display specimen](zaslav-specimen-v11.png)
+
 ![preview](preview.png)
 
 ## Status
