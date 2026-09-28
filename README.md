@@ -11,7 +11,7 @@ built into real font files with [fontTools](https://github.com/fonttools/fonttoo
 
 ## Status
 
-**Version 11.000 — 31 uppercase letters + Ꙗ:**
+**Version 11.001 — 31 uppercase letters + Ꙗ:**
 
 ```
 А Б В Г Ґ Д Е Є Ж З И І Ї Й К Л М Н О П Р С Т Ў Х Ч Ш Щ Ь Ю Я Ꙗ
@@ -31,8 +31,9 @@ two nearly symmetric arms with flat serifs meet at about 40 % of the height
 on the lower `І` stem.
 
 `Х` (v11) comes from the same specimen: a heavy diagonal from top left to
-bottom right, a hairline from top right to bottom left, flat serifs on all
-four ends. The build script is `tools/build_v11.py`.
+bottom right, a hairline from top right to bottom left. The heavy stroke is
+cut flat at both ends with a flag pointing outward (left at the top, right
+at the bottom, v11.001); the hairline keeps slab serifs. Build scripts: `tools/build_v11.py`, `tools/build_v11_1.py`.
 
 The font also has a `space` glyph (280 units, mapped to U+0020 and U+00A0),
 so spaces in running text come from the font instead of a fallback.
@@ -71,10 +72,10 @@ More glyphs get added as source material comes in.
 ## Versioning
 
 The version is stored the standard OpenType way and kept the same in all
-three files: `head.fontRevision` = 11.000, name ID 5 = `Version 11.000`,
-name ID 3 (unique ID) = `11.000;NOWXEL;ZaslavDisplay-Regular`, and the CFF
-`version` in the OTF. Git tag: `v11.000`. The next release should bump all
-of these together (e.g. 11.001 for fixes, 12.000 for new letters).
+three files: `head.fontRevision` = 11.001, name ID 5 = `Version 11.001`,
+name ID 3 (unique ID) = `11.001;NOWXEL;ZaslavDisplay-Regular`, and the CFF
+`version` in the OTF. Git tag: `v11.001`. The next release should bump all
+of these together (e.g. 11.002 for fixes, 12.000 for new letters).
 
 ## Files
 
