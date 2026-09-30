@@ -1,5 +1,7 @@
 # Zaslav Display
 
+Homepage: https://nowxel.github.io/zaslav-display.html
+
 Hand-drawn Cyrillic display typeface for Belarusian and Ukrainian, work in progress.
 
 Рукописний кириличний шрифт для заголовків (Заслаў, Zaslau): білоруська та українська абетки, у розробці.
@@ -109,3 +111,14 @@ of these together (e.g. 11.002 for fixes, 12.000 for new letters).
 Bundle `ZaslavDisplay-Regular.ttf` (or `.otf`) as a normal custom font asset
 for your platform (iOS/Android/Flutter/etc.) and reference it by its family
 name, `Zaslav Display`.
+
+## License
+
+Licensed under the SIL Open Font License, Version 1.1. See `OFL.txt`.
+This means you can use, embed, modify and redistribute the font for free,
+including commercially, as long as it isn't sold by itself and the license
+travels with it. Full text and FAQ: https://scripts.sil.org/OFL
+
+## Designer
+
+nowxel — https://nowxel.github.io/zaslav-display.html
