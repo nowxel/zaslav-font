@@ -15,16 +15,17 @@ built into real font files with [fontTools](https://github.com/fonttools/fonttoo
 
 ## Status
 
-**Version 11.001 — 31 uppercase letters + Ꙗ:**
+**Version 12.000 — 32 uppercase letters + Ꙗ:**
 
 ```
-А Б В Г Ґ Д Е Є Ж З И І Ї Й К Л М Н О П Р С Т Ў Х Ч Ш Щ Ь Ю Я Ꙗ
+А Б В Г Ґ Д Е Є Ж З И І Ї Й К Л М Н О П Р С Т Ў Х Ц Ч Ш Щ Ь Ю Я Ꙗ
 ```
 
-`Ш` and `Щ` weren't in either source image — they're constructed from the
-same stem/serif shapes as `І`, with `Щ`'s descender tail drawn to match a
-photo reference, then run through the same trace pipeline as the rest of the
-glyphs for a consistent texture.
+`Ш` (v12) is traced from a clean specimen. `Ц` and `Щ` (v12) are built from
+it: `Ц` is `Ш` without the middle stem, with the counter widened by about
+45 %; `Щ` is the full `Ш`. Both get the same descender, about a quarter of the
+cap height deep, cut on a slant like a flag to echo the top of the left stem.
+The outlines live in `tools/build_v12_000.py`. `Ц` borrows `Ш`'s kerning pairs.
 
 `Ґ` (v11) follows a light-painting reference: the lower `І` stem, cut on a
 slant, runs into a loop that sweeps left and up into the top bar, which ends
@@ -42,7 +43,7 @@ at the bottom, v11.001); the hairline keeps slab serifs. Build scripts: `tools/b
 The font also has a `space` glyph (280 units, mapped to U+0020 and U+00A0),
 so spaces in running text come from the font instead of a fallback.
 
-Kerning: 413 pairs in a GPOS `kern` feature, source in `kern.fea`
+Kerning: 428 pairs in a GPOS `kern` feature, source in `kern.fea`
 (РА, ТА, ГА, ЗА, АТ, АЧ, ХА, ДЕ, ТО…). Browsers apply it automatically.
 
 `Е` was redrawn from a small photo reference (about 20 px tall, too small to
@@ -70,16 +71,16 @@ flagged head, stem, foot and the diagonal, which runs down from the head
 and joins the leg at the bottom. Built from the mirrored `Р` bowl, the left
 leg of `Л` and `А`.
 
-Still missing: `У Ф Ц` and all lowercase letters.
+Still missing: `У Ф` and all lowercase letters.
 More glyphs get added as source material comes in.
 
 ## Versioning
 
 The version is stored the standard OpenType way and kept the same in all
-three files: `head.fontRevision` = 11.001, name ID 5 = `Version 11.001`,
-name ID 3 (unique ID) = `11.001;NOWXEL;ZaslavDisplay-Regular`, and the CFF
-`version` in the OTF. Git tag: `v11.001`. The next release should bump all
-of these together (e.g. 11.002 for fixes, 12.000 for new letters).
+three files: `head.fontRevision` = 12.000, name ID 5 = `Version 12.000`,
+name ID 3 (unique ID) = `12.000;NOWXEL;ZaslavDisplay-Regular`, and the CFF
+`version` in the OTF. Git tag: `v12.000`. The next release should bump all
+of these together (e.g. 12.001 for fixes, 13.000 for new letters).
 
 ## Files
 

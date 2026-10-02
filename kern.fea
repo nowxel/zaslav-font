@@ -72,6 +72,7 @@ feature kern {
     pos uni0411 uniA656 -25;  # Бꙗ
     pos uni0411 uni042F -20;  # БЯ
     pos uni0411 uni0425 -20;  # БХ
+    pos uni0411 uni0426 -20;  # БЦ
     pos uni0412 uni0417 -25;  # ВЗ
     pos uni0412 uni040E -30;  # ВЎ
     pos uni0412 uni0416 -20;  # ВЖ
@@ -110,6 +111,7 @@ feature kern {
     pos uni0413 uniA656 -20;  # Гꙗ
     pos uni0413 uni042F -60;  # ГЯ
     pos uni0413 uni0425 -50;  # ГХ
+    pos uni0413 uni0426 -25;  # ГЦ
     pos uni0490 uni0417 -45;  # ҐЗ
     pos uni0490 uni040E -25;  # ҐЎ
     pos uni0490 uni0490 -60;  # ҐҐ
@@ -136,6 +138,7 @@ feature kern {
     pos uni0414 uni042E -30;  # ДЮ
     pos uni0414 uni042C -30;  # ДЬ
     pos uni0414 uniA656 -30;  # Дꙗ
+    pos uni0414 uni0426 -25;  # ДЦ
     pos uni0415 uni0417 -45;  # ЕЗ
     pos uni0415 uni041B -20;  # ЕЛ
     pos uni0415 uni040E -35;  # ЕЎ
@@ -181,6 +184,7 @@ feature kern {
     pos uni0416 uniA656 -25;  # Жꙗ
     pos uni0416 uni042F -20;  # ЖЯ
     pos uni0416 uni0425 -20;  # ЖХ
+    pos uni0416 uni0426 -20;  # ЖЦ
     pos uni0418 uni0417 -35;  # ИЗ
     pos uni0418 uni040E -20;  # ИЎ
     pos uni0418 uni0416 -25;  # ИЖ
@@ -277,6 +281,7 @@ feature kern {
     pos uni0420 uniA656 -40;  # Рꙗ
     pos uni0420 uni042F -45;  # РЯ
     pos uni0420 uni0425 -65;  # РХ
+    pos uni0420 uni0426 -40;  # РЦ
     pos uni0422 uni0417 -60;  # ТЗ
     pos uni0422 uni0410 -70;  # ТА
     pos uni0422 uni0421 -65;  # ТС
@@ -309,6 +314,7 @@ feature kern {
     pos uni0422 uniA656 -20;  # Тꙗ
     pos uni0422 uni042F -60;  # ТЯ
     pos uni0422 uni0425 -45;  # ТХ
+    pos uni0422 uni0426 -25;  # ТЦ
     pos uni0428 uni0417 -20;  # ШЗ
     pos uni0428 uni040E -25;  # ШЎ
     pos uni0428 uni0414 -35;  # ШД
@@ -355,6 +361,7 @@ feature kern {
     pos uni0427 uniA656 -20;  # Чꙗ
     pos uni0427 uni042F -60;  # ЧЯ
     pos uni0427 uni0425 -25;  # ЧХ
+    pos uni0427 uni0426 -25;  # ЧЦ
     pos uni042E uni0417 -50;  # ЮЗ
     pos uni042E uni0410 -45;  # ЮА
     pos uni042E uni041B -30;  # ЮЛ
@@ -415,4 +422,12 @@ feature kern {
     pos uni0425 uni042C -25;  # ХЬ
     pos uni0425 uniA656 -25;  # Хꙗ
     pos uni0425 uni042F -20;  # ХЯ
+    pos uni0425 uni0426 -20;  # ХЦ
+    pos uni0426 uni0417 -20;  # ЦЗ
+    pos uni0426 uni040E -25;  # ЦЎ
+    pos uni0426 uni0414 -35;  # ЦД
+    pos uni0426 uni0416 -20;  # ЦЖ
+    pos uni0426 uni0422 -40;  # ЦТ
+    pos uni0426 uni0427 -40;  # ЦЧ
+    pos uni0426 uni0425 -20;  # ЦХ
 } kern;
